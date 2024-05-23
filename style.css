@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2rem;
+
+}
+
+a {
+    color: aliceblue;
+    list-style-type: none;
+    /* padding-left: 10rem; */
+    /* padding-right: 10rem; */
+    text-decoration: none;
+
+
+}
+
+
+p {
+    text-decoration: none;
+
+}
+
+.gr-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    border: 5px dotted blue;
+
+}
+
+.gr-logo a img {
+    height: 70px;
+    width: 256px;
+}
+
+marquee {
+    background: #e13c30;
+    margin: 1px;
+}
+
+.gr-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3faa9f;
+    height: 3rem;
+}
+
+.gr-result h3 {
+    font-size: 22px;
+}
+@media screen and (max-width: 676px) {
+    .gr-result{
+        height: 5rem;
+        background: #fefefe;
+    }
+    .gr-result h3 {
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .gr-result{
+        height: 4rem;
+        /* background: #5c93e7; */
+    }
+    
+}
+
+
+.satta-king-box-1 {
+    border: 4px solid #000;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    border-radius: 1.5rem;
+    height: 100%;
+}
+
+.satta-king-box-1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+
+}
+
+.sattabox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sattabox button {
+    margin: 0.5rem;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section a img {
+    height: 9rem;
+    width: 30rem;
+}
+
+.satta-king-box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.satta-king-result {
+    background: #0b3d04;
+    margin-top: 1rem;
+}
+
+.satta-result p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e13c30;
+}
+.daily-satta tr th,
+.daily-satta tr td {
+   text-align: center;
+   justify-content: space-between;
+   border: 1px solid
+}
+
+.daily-satta tr th {
+   width: 18rem;
+   background-color: #092248;
+   color: #fff;
+   font-size: 10px;
+   font-weight: 700;
+   padding: 0 2px
+}
+
+td {
+   border: 1px solid #000;
+   background: #dc814d;
+
+
+}
+
+.daily-satta tr td {
+
+   height: 1.4rem;
+   /* background-color: #092248; */
+   color: #fff;
+   font-size: 10px;
+   font-weight: 700;
+   padding: 0 2px
+}
+
+.satta-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #002f99;
+    color: aliceblue;
+}
+
+.gr-fourteen-body {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #053e62;
+    color: #fff;
+    margin-top: 0.3rem;
+    /* position: absolute; */
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#3faa6f, #0e41d9);
+    /* position: relative; */
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+
+}
+
+.score p {
+    padding-left: 8.4rem;
+    padding-right: 8.4rem;
+
+}
+
+.Notice-board {
+    background: #3f0469;
+    padding-top: 1rem;
+
+}
+
+.Notice-board p strong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+}
+
+.satta-person h2 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.satta-person p {
+    display: flex;
+    justify-content: center;
+    color: #e13c30;
+}
+
+.one-new p {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.timing p {
+    display: flex;
+    justify-content: center;
+    color: #e44515;
+}
+
+.three p {
+    display: flex;
+    justify-content: center;
+    color: #1de413;
+    font-size: 1rem;
+    font-weight: 900;
+
+}
+
+.four p {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}
+
+.gr-sixth-whatsapp {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.gr-sixth-whatsapp a {
+    text-decoration: none;
+}
+
+.gr-sixth-whatsapp a p {
+    display: flex;
+    justify-content: center;
+    /* color: yellow; */
+    align-items: center;
+    border: 2px solid #fff;
+    height: 1.5rem;
+    width: 6.2rem;
+    background: palevioletred;
+
+}
+
+ table tr th,
+ table tr td {
+    text-align: center;
+    justify-content: space-between;
+    border: 1px solid
+}
+
+ table tr th {
+    width: 12rem;
+    background-color: #092248;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 0 2px
+}
+
+ td {
+    border: 1px solid #000;
+    background: #dc814d;
+
+
+}
+
+.satta-chart-2024 tr td {
+
+    height: 2rem;
+    /* background-color: #092248; */
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 0 2px
+}
+
+.about-satta-king {
+    background: linear-gradient(to right, #002d22, #156858, #041411);
+}
+
+.about-satta-king h2 {
+    color: #d78b39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-satta-king p {
+    color: #fff;
+    padding: 10px;
+}
+
+.record-chart {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.record-chart-2024 {
+    display: block;
+}
+
+.record-chart-2024 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2611ec;
+    /* padding-bottom: 5px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.record-chart-2024 ul {
+    display: block;
+    list-style-type: none;
+}
+
+.record-chart-2024 ul li {
+    background: #156858;
+    background: -webkit-linear-gradient(to right, #002d22, #156858, #041411);
+    background: linear-gradient(to right, #002d22, #156858, #041411);
+    border: 2px solid #fff;
+    /* padding: 5px; */
+    /* margin: 0; */
+    color: #fff;
+    font-size: 18px;
+    text-align: center
+}
+
+.record-chart-2024 ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.record-chart-2023 {
+    display: block;
+}
+
+.record-chart-2023 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2611ec;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.record-chart-2023 ul {
+    display: block;
+    list-style-type: none;
+}
+
+.record-chart-2023 ul li {
+    background: #156858;
+    background: -webkit-linear-gradient(to right, #002d22, #156858, #041411);
+    background: linear-gradient(to right, #002d22, #156858, #041411);
+    border: 2px solid #fff;
+    padding: 5px;
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+    text-align: center
+}
+
+.record-chart-2023 ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.record-chart-2022 {
+    display: block;
+}
+
+.record-chart-2022 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2611ec;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.record-chart-2022 ul {
+    display: block;
+    list-style-type: none;
+}
+
+.record-chart-2022 ul li {
+    background: #156858;
+    background: -webkit-linear-gradient(to right, #002d22, #156858, #041411);
+    background: linear-gradient(to right, #002d22, #156858, #041411);
+    border: 2px solid #fff;
+    padding: 5px;
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+    text-align: center
+}
+
+.record-chart-2022 ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.record-chart-2021 {
+    display: block;
+}
+
+.record-chart-2021 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2611ec;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.record-chart-2021 ul {
+    display: block;
+    list-style-type: none;
+}
+
+.record-chart-2021 ul li {
+    background: #156858;
+    background: -webkit-linear-gradient(to right, #002d22, #156858, #041411);
+    background: linear-gradient(to right, #002d22, #156858, #041411);
+    border: 2px solid #fff;
+    padding: 5px;
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+    text-align: center
+}
+
+.record-chart-2021 ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer {
+    background: #000000;
+    /* padding: 0.2rem 5rem ; */
+}
+
+footer .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
